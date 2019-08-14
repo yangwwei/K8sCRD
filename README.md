@@ -1,6 +1,9 @@
 # Kubernetes CRDs Programming Example
 
-Generate code
+Generate code, code-generation tool is shipped within Kubernetes source code.
 ```
-./generate-groups.sh all github.com/yangwwei/yunikorn-k8shim/pkg/client github.com/cloudera/yunikorn-k8shim/pkg/apis yunikorn:v1alpha
+cd GOPATH/src/github.com/kubernetes/code-generator/
+./generate-groups.sh all github.com/yangwwei/K8sCRD/pkg/client github.com/yangwwei/K8sCRD/pkg/apis example:v1alpha1
 ```
+
+/// TODO ...
